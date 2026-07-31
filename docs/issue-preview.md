@@ -1,6 +1,6 @@
 # GitHub Issue Preview
 
-> **Status:** Draft preview. No remote issues have been created yet.
+> **Status:** Published as GitHub issues #1–#12 in [`majorgilles/gradient-boosted-trees-course`](https://github.com/majorgilles/gradient-boosted-trees-course/issues). This file preserves the approved issue specification.
 
 ## Labels
 
