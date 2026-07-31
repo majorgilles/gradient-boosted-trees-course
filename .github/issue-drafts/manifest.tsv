@@ -1,0 +1,12 @@
+01	Lesson 01: See a regression tree as piecewise-constant predictions	lesson,action: learner,phase: cart	.github/issue-drafts/01-tree-prediction-geometry.md
+02	Lesson 02: Derive and visualize CART split selection	lesson,action: learner,phase: cart	.github/issue-drafts/02-cart-split-objective.md
+03	Lesson 03: Grow trees recursively and control overfitting	lesson,action: learner,phase: cart	.github/issue-drafts/03-recursive-growth-and-regularization.md
+04	Lesson 04: Implement a typed CART regressor from first principles	lesson,action: learner,phase: cart	.github/issue-drafts/04-implement-cart-regressor.md
+05	Lesson 05: Diagnose and validate the custom CART regressor	lesson,action: learner,phase: cart	.github/issue-drafts/05-diagnose-cart-behavior.md
+06	Lesson 06: Understand boosting as sequential additive correction	lesson,action: learner,phase: boosting	.github/issue-drafts/06-boosting-as-additive-correction.md
+07	Lesson 07: Implement first-order gradient boosting from first principles	lesson,action: learner,phase: boosting	.github/issue-drafts/07-implement-first-order-gradient-boosting.md
+08	Lesson 08: Generalize residuals to loss gradients and binary logits	lesson,action: learner,phase: boosting	.github/issue-drafts/08-general-losses-and-binary-classification.md
+09	Lesson 09: Derive second-order leaf weights and split gain	lesson,action: learner,phase: second-order	.github/issue-drafts/09-second-order-objective-and-split-gain.md
+10	Lesson 10: Implement a compact XGBoost-style learner	lesson,action: learner,phase: second-order	.github/issue-drafts/10-implement-xgboost-style-learner.md
+11	Lesson 11: Connect the custom learner to XGBoost and LightGBM internals	lesson,action: learner,phase: libraries	.github/issue-drafts/11-xgboost-lightgbm-production-bridge.md
+12	Lesson 12: Run final XGBoost and LightGBM experiments on California Housing	lesson,action: learner,phase: libraries	.github/issue-drafts/12-final-xgboost-lightgbm-experiments.md

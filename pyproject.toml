@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gradient-boosted-trees-course"
+version = "0.1.0"
+description = "A tutor-guided course on decision trees and gradient boosting from first principles."
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyterlab",
+    "ruff",
+]
+final = [
+    "lightgbm",
+    "xgboost",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/boosted_trees_course"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["ANN", "B", "E", "F", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"notebooks/*.ipynb" = ["ANN"]
+
+[tool.ruff.format]
+docstring-code-format = true

@@ -1,0 +1,6 @@
+lesson	1D76DB	A follow-along course lesson
+action: learner	C2E0C6	Requires learner explanation, implementation, or experiment
+phase: cart	0E8A16	Decision-tree foundations and CART implementation
+phase: boosting	FBCA04	First-order boosting and generalized losses
+phase: second-order	D93F0B	Second-order objective and compact XGBoost-style learner
+phase: libraries	5319E7	Production bridge and final library experiments

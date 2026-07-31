@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Notebook state
+.ipynb_checkpoints/
+
+# Tool caches
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# JavaScript tooling artifacts created by notebook tooling
+node_modules/
+yarn.lock
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and generated scratch output
+data/raw/
+data/cache/
+artifacts/scratch/
