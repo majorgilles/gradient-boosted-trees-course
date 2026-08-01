@@ -12,6 +12,7 @@ dependencies = [
     "matplotlib",
     "numpy",
     "pandas",
+    "pandas-stubs~=3.0.5",
     "scikit-learn",
 ]
 
@@ -19,6 +20,7 @@ dependencies = [
 dev = [
     "ipykernel",
     "jupyterlab",
+    "pytest",
     "ruff",
 ]
 final = [
