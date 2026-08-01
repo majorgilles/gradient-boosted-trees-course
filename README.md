@@ -92,10 +92,12 @@ threshold must be learned from training data, not from held-out data.
 
 ## Lightweight project checks
 
-There is deliberately no pytest suite. The course uses transparent notebook assertions,
-hand calculations, fixed seeds, loss curves, and visual diagnosis.
+The course primarily uses transparent notebook assertions, hand calculations, fixed seeds,
+loss curves, and visual diagnosis. Focused pytest checks protect reusable helpers moved into
+`src/boosted_trees_course/` without turning the course into a production test suite.
 
 ```bash
+uv run pytest -q
 uv run ruff check .
 uv run ruff format --check .
 ```
